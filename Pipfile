@@ -1,0 +1,22 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+jupyterlab = "*"
+numpy = "*"
+matplotlib = "*"
+networkx = "*"
+qiskit = "==0.34.0"
+pyzx = "==0.6.4"
+ipywidgets = "*"
+pymoo = "*"
+seaborn = "*"
+plotly = "==5.8.0"
+tqdm = "*"
+
+[requires]
+python_version = "3.8"
